@@ -1,6 +1,6 @@
 # Use case - Candidate resume submission
 
-This use case is about allowing candidates to submit a resume, refine the resume, and generate an anonymized summary.
+This use case is about allowing hiring managers to submit and refine a job requisition before submitting it to the Match AI.
 
 ## Involved containers
 <Container image goes here>
