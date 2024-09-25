@@ -21,3 +21,7 @@ The uploaded resume is then sent to the Resume AI module, which analyzes the con
 The candidate can choose to either accept the suggestions or make their own edits before resubmitting the resume. This process can be repeated until the candidate is satisfied with the final version.
 
 The candidate can submit their resume to the Summary AI once they are satisfied with the final version.
+
+The Summary AI will generate an anonymized summary for the resume and send it back to the Resume manager.
+
+The Resume manager will notify the user that an anonymized summary of their resumer is ready to be viewed.
