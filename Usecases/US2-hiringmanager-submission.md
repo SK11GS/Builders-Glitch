@@ -1,4 +1,4 @@
-# Use case - Candidate resume submission
+# Use case - Hiring manager job requisition submission
 
 This use case is about allowing hiring managers to submit and refine a job requisition before submitting it to the Match AI.
 
