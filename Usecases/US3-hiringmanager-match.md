@@ -21,3 +21,5 @@ Upon receiving the notification, the hiring manager reviews the anonymized resum
 If they choose to unlock the resume, a payment is made, granting access to the candidate's complete resume.
 
 Should the hiring manager wish to proceed with an interview, they can export the resume to their external HR systems.
+
+The hiring manager is presented with a survey which will allow us to improve the system.

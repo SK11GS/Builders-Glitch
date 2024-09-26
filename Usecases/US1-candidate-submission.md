@@ -22,6 +22,4 @@ The candidate can choose to either accept the suggestions or make their own edit
 
 The candidate can submit their resume to the Summary AI once they are satisfied with the final version.
 
-The Summary AI will generate an anonymized summary for the resume and send it back to the Resume manager.
-
-The Resume manager will notify the user that an anonymized summary of their resumer is ready to be viewed.
+The Summary AI will generate an anonymized resume for the resume and send it back to the Resume manager.
