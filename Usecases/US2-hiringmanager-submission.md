@@ -6,8 +6,10 @@ This use case is about allowing hiring managers to submit and refine a job requi
 <Container image goes here>
 
 Involved containers:
-- List of 
-- containers, go here.
+- Job / Resume Manager
+- Job AI
+- Match AI
+
 
 ## Sequence diagram
 ![hiringmanager-submission.jpg](images%2Fhiringmanager-submission.jpg)

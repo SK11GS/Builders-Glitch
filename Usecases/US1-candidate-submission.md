@@ -6,8 +6,9 @@ This use case is about allowing candidates to submit a resume, refine the resume
 <Container image goes here>
 
 Involved containers:
-- List of 
-- containers, go here.
+- Job / Resume Manager
+- Resume AI
+- Anonymize AI
 
 ## Sequence diagram
 ![candidate-submission.jpg](images%2Fcandidate-submission.jpg)

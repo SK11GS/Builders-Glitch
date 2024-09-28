@@ -1,4 +1,4 @@
-# Use case - Candidate resume submission
+# Use case - Hiring manager job match
 
 This use case enables hiring managers to view an anonymized resume summary, purchase access to unlock the full resume, and export it to their external HR systems.
 
@@ -6,8 +6,12 @@ This use case enables hiring managers to view an anonymized resume summary, purc
 <Container image goes here>
 
 Involved containers:
-- List of 
-- containers, go here.
+- Match AI
+- Notification Queue
+- Job / Resume Manager
+- Invoice
+- External Integration
+- Survey Manager
 
 ## Sequence diagram
 ![job-match.jpg](images%2Fjob-match.jpg)
