@@ -1,6 +1,6 @@
 # Glossary
 
-| Term  | Description |
+| Name | Description |
 | --- | --- |
 | Candidate | An individual who is seeking employment and uses the portal to search for job opportunities, apply for positions, and engage with potential employers.  |
 | ClearView AI Engine  | An in-house AI engine designed to assist candidates in enhancing their resumes, anonymizing personal details, generating S.M.A.R.T goal representations, matching them with suitable job opportunities, and supporting hiring managers in optimizing their job postings.  |
