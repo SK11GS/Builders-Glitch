@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fmSe2dkaER_Ki14ngzoC-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="10" width="640" height="480" as="geometry" />
+          <mxGeometry x="100" y="10" width="530" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="80" width="490" height="400" as="geometry" />
+          <mxGeometry x="350" y="90" width="260" height="390" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-2" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="910" y="175" width="30" height="60" as="geometry" />
@@ -23,48 +23,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="130" width="240" height="150" as="geometry" />
+          <mxGeometry x="370" y="125" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-12" value="&lt;div&gt;App Namespace&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="130" width="130" height="100" as="geometry" />
+          <mxGeometry x="370" y="125" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-14" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="260" y="220" width="60" height="50" as="geometry" />
+          <mxGeometry x="450" y="225" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-15" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="330" y="220" width="60" height="50" as="geometry" />
+          <mxGeometry x="520" y="225" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="310" width="220" height="150" as="geometry" />
+          <mxGeometry x="370" y="310" width="220" height="150" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-17" value="DB Namespace" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="310" width="135" height="80" as="geometry" />
+          <mxGeometry x="370" y="310" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-18" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="60" height="50" as="geometry" />
+          <mxGeometry x="450" y="400" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-19" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="310" y="400" width="60" height="50" as="geometry" />
+          <mxGeometry x="520" y="400" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-20" value="ClearView Platform&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="155" y="100" width="140" height="20" as="geometry" />
+          <mxGeometry x="350" y="100" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="310" width="230" height="150" as="geometry" />
+          <mxGeometry x="110" y="90" width="230" height="150" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-23" value="Messaging&amp;nbsp;&lt;div&gt;Namespace&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="310" width="135" height="80" as="geometry" />
+          <mxGeometry x="110" y="95" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-24" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="480" y="400" width="60" height="50" as="geometry" />
+          <mxGeometry x="200" y="180" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-25" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="400" width="60" height="50" as="geometry" />
+          <mxGeometry x="270" y="180" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fmSe2dkaER_Ki14ngzoC-31" value="Kubernetes&lt;div&gt;Cluster&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="20" width="100" height="60" as="geometry" />
+          <mxGeometry x="110" y="20" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fmSe2dkaER_Ki14ngzoC-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fmSe2dkaER_Ki14ngzoC-2">
+        <mxCell id="fmSe2dkaER_Ki14ngzoC-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fmSe2dkaER_Ki14ngzoC-11" target="fmSe2dkaER_Ki14ngzoC-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="403" y="240" as="sourcePoint" />
             <mxPoint x="540" y="260" as="targetPoint" />
@@ -74,6 +74,21 @@
           <mxGeometry x="-0.0041" y="-3" relative="1" as="geometry">
             <mxPoint x="5" y="9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fmSe2dkaER_Ki14ngzoC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fmSe2dkaER_Ki14ngzoC-11" target="fmSe2dkaER_Ki14ngzoC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmSe2dkaER_Ki14ngzoC-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fmSe2dkaER_Ki14ngzoC-40" value="&lt;div&gt;AI Namespace&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmSe2dkaER_Ki14ngzoC-41" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="195" y="410" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fmSe2dkaER_Ki14ngzoC-42" value="Pod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
