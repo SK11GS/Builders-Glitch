@@ -25,7 +25,7 @@ Diversity Cyber Council aims to enhance inclusion and representation in the tech
 ## Original Business Requirements for ClearView System
 [Original Requirement for ClearView System](original%20requirements.md)
 
-# Refined Business Requirements to Define System Capabilities and Interactions
+# Translating Business Requirements to System Capabilities and Interactions
 
 ## Candidate \- System Interaction
 
