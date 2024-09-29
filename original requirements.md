@@ -77,6 +77,12 @@ Assumptions:
 * Maintain internal reference and user data  
 * Reporting and analytics
 
+#### Pictorial Representation
+
+  ![ClearView Primary Flow](architecture/images/ClearView-Primary%20Workflow.png "ClearView Primary Flow")
+  ![ClearView Context Diagram and Use Cases](architecture/images/ClearView%20-%20Context%20Diagram%20and%20Use%20Cases.png "ClearView Context Diagram and Use Cases")
+  
+
 #### **Technical Details**
 
 * Assume a trained LLM for purposes of the solution
