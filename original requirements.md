@@ -1,19 +1,5 @@
 # **Diversity Cyber Council Kata Requirements 2024**
 
-## **Our Mission**
-
-[Diversity Cyber Council](https://www.diversitycybercouncil.com/) is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce.
-
-## **Our Vision**
-
-Our vision is to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
-
-## **Our Goal**
-
-Our goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities. 
-
-## **Overview**	
-
 ### **Program Name: ClearView**
 
 ### **Tagline: Transparent Decision Making**		
