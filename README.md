@@ -1,4 +1,19 @@
-# Company Overview
+## Builder's Glitch:   
+We're a passionate team of IT professionals who thrive on solving complex challenges. 
+
+| Name | Full Name | LinkedIn Profile |
+| :---- | :---- | :---- |
+| Chenthil | Chenthilnathan, Swaminathan | [LinkedIn](https://www.linkedin.com/in/chenthil-nathan-s/)  |
+| Dinesh | Dinesh Abraham, Thangasamy | [LinkedIn](https://www.linkedin.com/in/dinesh-abraham-thangasamy/)  |
+| Suresh | Suresh Kumar, Sundararajulu | [LinkedIn](http://www.linkedin.com/in/sureshkumargs)  |
+| Vijji | Vijaya lakshmi, Guruswamy | [LinkedIn](https://www.linkedin.com/in/vijji-guruswamy-a2020714/)  |
+
+
+# Introduction:  
+Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI)**
+ 
+
+## Company Overview
 ![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
 
 [Diversity Cyber Council](https://www.diversitycybercouncil.com/) is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce.
@@ -7,12 +22,12 @@ Diversity Cyber Council’s goal is to establish a sustainable and diverse talen
 
 Diversity Cyber Council aims to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
-## **Original Business Requirements for ClearView System**
+## Original Business Requirements for ClearView System
 [Original Requirement for ClearView System](original%20requirements.md)
 
-# **Refined Business Requirements to Define System Capabilities and Interactions**
+# Refined Business Requirements to Define System Capabilities and Interactions
 
-## **Candidate \- System Interaction**
+## Candidate \- System Interaction
 
 * Candidates can register on the ClearView platform and create a profile by providing basic demographic and contact information.   
 * The ClearView platform sends a confirmation email, and candidates must verify their account.  
@@ -33,8 +48,7 @@ Diversity Cyber Council aims to enhance inclusion and representation in the tech
   * Admin can set any profile to active or Inactive, but this feature will not be part of the current scope and can be considered for the future.   
 * After completing an interview, candidates receive a 5-question survey to rate the interviewer and provide feedback on the process.
 
-
-## **Hiring Manager \- System Interaction**
+## Hiring Manager \- System Interaction
 
 * Employers or hiring managers register on the ClearView platform, with public data auto-filled and non-public data manually input.  
 * The hiring manager uploads job descriptions and relevant role requirements.  
@@ -49,8 +63,7 @@ Diversity Cyber Council aims to enhance inclusion and representation in the tech
   * The notifications can be consolidated into a single message across all job postings and redirect the hiring manager to the dashboard.  
 * **Highlighting Revenue Pattern of ClearView Platform:** The ClearView platform generates revenue when a company view a candidate’s complete profile or when the company chooses to involve a DEI consultant in the interview process. 
 
-
-## **ClearView Admin \- System Interaction**
+## ClearView Admin \- System Interaction
 
 * ClearView Admin ensures that any changes to a candidate's status, whether hired, rejected, accepted, or currently interviewing, are updated and reflected across the platform, promoting transparency in the hiring process.  
 * ClearView Admin collects and maintains detailed demographic data for all candidates. This information is beneficial for tracking outcomes, such as who gets hired or rejected, enabling a more profound analysis of hiring patterns and diversity.  
@@ -59,14 +72,14 @@ Diversity Cyber Council aims to enhance inclusion and representation in the tech
 * ClearView Admin compiles unconscious bias reports and other monthly reports with KPIs and metrics related to the interview process and shares them with the hiring company's executive management.   
   * The ClearView admin can facilitate actionable recommendations or bias-reduction strategies that executives can use to improve fairness in their hiring and interview processes.
 
-## **DEI Consultant \- System Interaction**
+## DEI Consultant \- System Interaction
 
 * DEI Consultants shadow live interviews at the request of the hiring manager to monitor for potential unconscious bias.  
 * DEI Consultants document any unconscious bias during the interview process, such as biased language or behaviour.  
   * DEI Consultants submit their findings on unconscious bias to the ClearView Admin for further analysis.  
 * Future: DEI Consultants can be replaced by AI Engine supporting DEI models. This is a scalable and cost-efficient approach.
 
-# **Architecture**
+# Architecture
 
 As a non-profit organization, the Diversity Cyber Council (DCC) will face budgetary constraints until the ClearView project begins generating revenue. Therefore, the initial solution must be cost-effective and straightforward, with the flexibility to scale as demand grows or when DCC secures additional funding through profits or external investments.
 
