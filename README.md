@@ -7,7 +7,7 @@ Diversity Cyber Council’s goal is to establish a sustainable and diverse talen
 
 Diversity Cyber Council aims to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
-# **Original Business Requirements for ClearView System**
+## **Original Business Requirements for ClearView System**
 [Original Requirement for ClearView System](original%20requirements.md)
 
 # **Refined Business Requirements to Define System Capabilities and Interactions**
