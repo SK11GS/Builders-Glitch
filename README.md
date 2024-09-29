@@ -1,5 +1,5 @@
 ## Builder's Glitch:   
-We're a passionate team of IT professionals who thrive on solving complex challenges. 
+Builder's Glitch! We're a passionate team of IT professionals who thrive on solving complex challenges. 
 
 | Name | Full Name | LinkedIn Profile |
 | :---- | :---- | :---- |
