@@ -120,3 +120,10 @@ into its own services.
 ### Chosen Architecture
 Modular Monolith
 ![Architecture](architecture/images/ClearView%20Platform-Achitecture-Styles.png "Architecture")
+
+# Solution
+![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
+
+[ClearView Engine](aiengine.md)
+
+[ClearView Platform](platform.md)
