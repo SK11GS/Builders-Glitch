@@ -122,7 +122,7 @@ Modular Monolith
 ![Architecture](architecture/images/ClearView%20Platform-Achitecture-Styles.png "Architecture")
 
 # Solution
-Context Diagram yet to be drawn
+![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
 
 [ClearView Engine](aiengine.md)
 
