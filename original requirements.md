@@ -1,7 +1,7 @@
 # **Diversity Cyber Council Kata Requirements 2024**
+![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
 
 ### **Program Name: ClearView**
-
 ### **Tagline: Transparent Decision Making**		
 
 ### **Program Summary:**
