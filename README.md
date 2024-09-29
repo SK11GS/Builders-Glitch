@@ -1,6 +1,9 @@
-# Team Name: Builder's Glitch
+# Company Overview
 
-# **Refining Business Requirements to Define System Capabilities and Interactions**
+# **Original Business Requirements for ClearView System**
+[Read the Requirements](original%20requirements.md)
+
+# **Refined Business Requirements to Define System Capabilities and Interactions**
 
 ## **Candidate \- System Interaction**
 
