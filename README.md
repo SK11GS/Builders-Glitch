@@ -1,7 +1,14 @@
 # Company Overview
+![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
+
+[Diversity Cyber Council](https://www.diversitycybercouncil.com/) is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce.
+
+Diversity Cyber Council’s goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities.
+
+Diversity Cyber Council aims to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
 # **Original Business Requirements for ClearView System**
-[Read the Requirements](original%20requirements.md)
+[Original Requirement for ClearView System](original%20requirements.md)
 
 # **Refined Business Requirements to Define System Capabilities and Interactions**
 
