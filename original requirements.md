@@ -54,16 +54,16 @@ HR platform that leverages AI to construct stories about a job candidate based o
 
 ## Pictorial Representation
 
-## ClearView Primary Flow
+### ClearView Primary Flow
   ![ClearView Primary Flow](architecture/images/ClearView-Primary%20Workflow.png "ClearView Primary Flow")
 
-## ClearView Context Diagram and Use Cases
+### ClearView Context Diagram and Use Cases
  ![ClearView Primary Flow](architecture/images/ClearView%20-%20Context%20Diagram%20and%20Use%20Cases.png "ClearView Context Diagram and Use Cases")
     
-#### **Technical Details**
+## **Technical Details**
 * Assume a trained LLM for purposes of the solution
 
-#### **Domain areas:**
+## **Domain areas:**
 Needs to interface to most popular HR systems (THESE ARE EXAMPLES ONLY).
 
 * [SAP SuccessFactors](https://www.forbes.com/advisor/business/software/best-human-resource-management-systems/#sap_successfactors_section): Best for Enterprises  
