@@ -6,7 +6,7 @@ TABLE OF CONTENTS <!-- omit from toc -->
  <tr style="vertical-align:top">
     <td>
 
-- [1. Builder's Glitch](#1-Builder's-Glitch)
+- [1. Builder's Glitch](#1-builders-glitch)
 - [2. Welcome to ClearView](#2-Welcome-to-ClearView)
 - [3. Company Overview](#3-Company-Overview)
 - [4. Original Business Requirements for ClearView System](#4-Original-Business-Requirements-for-ClearView-System)
