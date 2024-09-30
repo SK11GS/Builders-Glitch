@@ -9,10 +9,10 @@ Builder's Glitch! We're a passionate team of IT professionals who thrive on solv
 | Vijji | Vijaya lakshmi, Guruswamy | [LinkedIn](https://www.linkedin.com/in/vijji-guruswamy-a2020714/)  |
 
 
-# Introduction:  
+# 1. Welcome to ClearView:  
 Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
  
-## Company Overview
+# 2. Company Overview
 ![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
 
 [Diversity Cyber Council](https://www.diversitycybercouncil.com/) is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce.
@@ -21,10 +21,10 @@ Diversity Cyber Council’s goal is to establish a sustainable and diverse talen
 
 Diversity Cyber Council aims to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
-## Original Business Requirements for ClearView System
+# 3. Original Business Requirements for ClearView System
 [Original Requirement for ClearView System](original%20requirements.md)
 
-# Mapping Business Requirements to System Interactions
+### Mapping Business Requirements to System Interactions
 To refine the original requirements, we developed an actor-system interaction mapping model to streamline the user journeys to improve clarity and usability. We organized them around core system functionalities for **_Candidates, Hiring Managers, and ClearView Administrators_<sup>*</sup>**. 
 
 We focused on thorough analysis to identify the core objectives and critical problems, such as reducing hiring bias and improving candidate-job matching and essential features like AI-driven resume analysis, anonymization, and data aggregation, ensuring that these functionalities are addressed. 
@@ -35,7 +35,7 @@ By honing in on these priorities and considering the financial implications of d
 
 [Glossary of Terms](Glossary.md)<sup>*</sup>
 
-# Architecture
+# 4. Architecture
 As a non-profit organization, the Diversity Cyber Council (DCC) will face budgetary constraints until the ClearView project begins generating revenue. Therefore, the initial solution must be cost-effective and straightforward, with the flexibility to scale as demand grows or when DCC secures additional funding through profits or external investments.
 
 Critical system components, particularly those supporting DCC's core operations, must maintain high availability—ideally around the clock but at least during peak business hours. The availability of business-critical components is crucial since DCC's revenue is directly tied to delivering value to partners, candidates, and hiring managers. Any downtime or inefficiency could negatively impact these relationships and revenue.
@@ -89,10 +89,10 @@ The ClearView Platform uses a **Modular Monolith Architecture** to manage user i
 **Queuing system**
 The proposed solution for both the **ClearView AI Engine** and the **ClearView Platform** will utilize a queueing system to manage asynchronous communication between the two components. The ClearView AI Engine processes tasks such as candidate matching, resume enhancement, and talent scoring asynchronously, placing the results onto the queue once the jobs are completed. The ClearView Platform then pulls the processed data from the queue to display updated information to users in real time, such as job matches or enhanced resumes. Implementors have the flexibility to choose a cost-effective queueing solution, such as **RabbitMQ**, **Amazon SQS**, or **Kafka**, depending on their operational needs.
 
-## Deployment
+# 5. Deployment
 The final deployment view is shown below. For more details, please check the [Deployment section](deployment/Deployment.md)
 
 ![Deployment view](deployment/images/deployment.jpg "Deployment of ClearView Solution")
 
-## Summary
+# 6. Summary
 Placeholder for summary
