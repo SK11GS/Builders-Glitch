@@ -123,6 +123,7 @@ Modular Monolith
 
 ## Deployment
 The final deployment diagram looks like below. For more details please check the [Deployment section](deployment/Deployment.md)
+
 ![Deployment Diagram](deployment/images/deployment.jpg "Deployment Diagram")
 
 ## Designing the architecture
