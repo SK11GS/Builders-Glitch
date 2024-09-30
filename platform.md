@@ -8,7 +8,7 @@ The platform must also be able to scale over time, allowing more hiring companie
 
 This modular approach ensures clear separation of responsibilities, enabling easier development, maintenance, and future scaling of the platform.
 
-### Driving Factors
+### System Components
 
 The following components have been identified as critical for the platform's functional operations. Each of these components will be developed as part of the modular monolith:
 
@@ -51,21 +51,21 @@ Handles billing, invoicing, and payment processing for companies using the platf
 ### Component View
 * Diagram will be inserted here
 
-#### Key Software Architecture Characteristics
+### Architectural Characteristic Mapping
 
-    Cost-effectiveness:
-        The modular monolith design is proposed to minimize infrastructure complexity and initial costs. By avoiding the overhead of distributed systems in the early stages, development and operational costs can be kept low.
-        The monolithic architecture allows faster development cycles and fewer dependencies compared to microservices, making it a suitable choice given the budget constraints.
+> **Cost-effectiveness**
+  * The modular monolith design is proposed to minimize infrastructure complexity and initial costs. By avoiding the overhead of distributed systems in the early stages, development and operational costs can be kept low.
+  * The monolithic architecture allows faster development cycles and fewer dependencies compared to microservices, making it a suitable choice given the budget constraints.
 
-    Time-to-Market:
-        The monolith allows for quicker deployment as all components are developed and deployed as a single unit. This eliminates the complexity of managing multiple services, enabling faster testing and market validation.
+> **Time-to-Market**
+  * The monolith allows for quicker deployment as all components are developed and deployed as a single unit. This eliminates the complexity of managing multiple services, enabling faster testing and market validation.
 
-    Modularity:
-        While the application is structured as a monolith, its design will follow a modular approach, where each functional area is encapsulated in its own module. This ensures code organization, maintainability, and easier future transitions to microservices if required.
+> **Modularity**
+  * While the application is structured as a monolith, its design will follow a modular approach, where each functional area is encapsulated in its own module. This ensures code organization, maintainability, and easier future transitions to microservices if required.
 
-    Scalability (Future Growth):
-        The modular monolith approach allows the platform to scale horizontally in the future by splitting specific modules into microservices as the system grows. This flexibility ensures that scaling efforts can be introduced incrementally, aligning with the growing demand.
-        As the platform expands, specific high-traffic modules (e.g., Candidate Management) can be isolated and scaled independently.
+> **Scalability (Future Growth)**
+  * The modular monolith approach allows the platform to scale horizontally in the future by splitting specific modules into microservices as the system grows. This flexibility ensures that scaling efforts can be introduced incrementally, aligning with the growing demand. 
+  * As the platform expands, specific high-traffic modules (e.g., Candidate Management) can be isolated and scaled independently.
 
 ## Use cases
 
@@ -84,3 +84,5 @@ Handles billing, invoicing, and payment processing for companies using the platf
 * Performance
 
 ### ADR
+* [ADR #001](ADRs/ADR%20001%3A%20Architecture%20Decision%20for%20ClearView%20Platform.md)
+* [ADR #004](ADRs/ADR%20004%3A%20Architecture%20Considered%20for%20ClearView%20Platform.md)
