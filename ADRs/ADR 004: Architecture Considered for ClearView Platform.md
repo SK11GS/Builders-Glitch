@@ -2,7 +2,7 @@
 Service Based Architecture for ClearView AI Engine
 
 ## Status
-Superseded by [ADR #001]
+Superseded by [ADR #001](ADR%20001%3A%20Architecture%20Decision%20for%20ClearView%20Platform.md)
 
 ## Context
 The ClearView platform needs to handle increasing business demands as more companies and candidates join the diversity of inclusion programs. 
