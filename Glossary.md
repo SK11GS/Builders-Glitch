@@ -2,11 +2,10 @@
 | Category  | Standarized\_Name | Description |
 | ----- | ----- | ----- |
 | **Players** | Candidate | An individual seeking employment uses the portal to search for job opportunities, apply for positions, and engage with potential employers. |
-|  | ClearView Administrator |  |
-|  | DEI Consultants |  |
-|  | Hiring Company |  |
+|  | ClearView Administrator | An individual who is responsible with helping candidates, hiring managers and company with any issues with the ClearView system.   |
+|  | DEI Consultants | An individual helping companies identify any bias in their hiring process |
+|  | Hiring Company | A company that has an account within the ClearView system |
 |  | Hiring Manager | An individual within a company or an organization who is responsible for overseeing the recruitment.  |
-|  | Hiring Company Executives |  |
 | **ClearView Solution** | ClearView Solution | ClearView Platform \+ ClearView AI Engine  |
 |  | ClearView Platform | All other modules except AI Engine. |
 |  | ClearView AI Engine | An in-house AI engine designed to assist candidates in enhancing their resumes, anonymizing personal details, generating S.M.A.R.T goal representations, matching them with suitable job opportunities, and supporting hiring managers in optimizing their job postings. |
