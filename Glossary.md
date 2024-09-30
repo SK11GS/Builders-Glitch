@@ -15,17 +15,17 @@
 |  | S.M.A.R.T Profile  | A profile summary based on the S.M.A.R.T methodology is generated to match a candidate's profile with a particular job posting. |
 |  | Talent Bridge |  Matches the candidates to job postings.  |
 |  | Company Profile Finder | Assists the company’s onboarding process by suggesting publicly available company data.  |
-| **ClearView Platform** | Authentication and Authorization.  |  |
+| **ClearView Platform** | Authentication and Authorization  | Handles various account access and authentication for users with different roles in the ClearView system |
 |  | Candidate Management | Handles onboarding candidates (including registration, profile creation, and maintenance)  |
 |  | Resume Manager | A service that handles all tasks related to a resume (Repository actions: Retrieving, Saving, Storing, Updating)  |
 |  | Company Management | Handles onboarding company along with hiring manager (including registration, profile creation, and maintenance)  |
 |  | Job Manager | A service that handles all tasks related to a job (Repository actions: Retrieving, Saving, Storing, Updating)  |
 |  | AIConnector | Acts as a bridge between ClearView Platform and CleavView AI Engine to coordinate tasks between two applications.  |
-|  | Survey & Feedback Management |  |
-|  | Notifications |  |
-|  | External Integration |  |
+|  | Survey & Feedback Management | Responsible for initiating and collecting survey from candidates and hiring managers |
+|  | Notifications | Responsible for sending notifications to hiring managers, candidates |
+|  | External Integration | Responsible for allowing hiring managers to export the candidate's profile to their existing HR system |
 |  | ClearView Administrator Management |  |
-|  | Data & Analytics |  |
-|  | Billing & Payment Module | invoice |
+|  | Data & Analytics | Handles all reporting and analytics for different data points within the ClearView system |
+|  | Billing & Payment Module | Responsible for all billing and payment functionality within the ClearView platform |
 | **Custom LLM for ClearView** | LLM Engine | A service that runs custom LLM.  |
 
