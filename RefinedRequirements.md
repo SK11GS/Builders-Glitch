@@ -16,14 +16,14 @@
   * The feature of Chat or in-app interaction between the Candidate and the Hiring Manager will not be part of the current scope but can be considered for the future.    
 * Candidates can remove or update their resumes at any point.   
 * Candidates can mark their profiles as "inactive,"
-* After completing an interview, candidates receive a 5-question survey to rate the interviewer and provide feedback on the process.
+* After completing an interview, candidates receive a 5-question survey to rate the interviewer and provide feedback.
     
 ## Hiring Manager \- System Interaction
-* Employers or hiring managers register on the ClearView platform, with public data auto-filled and non-public data manually input.  
+* Employers or hiring managers register on the ClearView platform, with public data auto-filled and non-public data to be manually added.  
 * The hiring manager uploads job descriptions and relevant role requirements.  
 * Hiring managers access a dashboard to manage job postings, view matched candidates and their Talent Match Score scores and perform relevant administrative tasks.  
 * Hiring managers view anonymized profiles of those candidates who are matched.  
-* Hiring managers can unlock a candidate's complete profile, and they decide to offer an interview to the candidate.   
+* Hiring managers can unlock a candidate's complete profile, and they decide to offer an interview to the candidate.
   * ClearView Platform initiates an invoice for the company when the hiring manager unlocks the candidate's unmasked resume.   
 * After an interview, Hiring managers complete a 5-question survey about candidates and provide feedback on the process.  
 * Hiring managers can include a DEI Consultant in the interview process to monitor for potential bias.   
@@ -55,7 +55,7 @@
 * The current scope does not include in-app scheduling of interviews between candidates, hiring managers, and DEI consultants. 
 * In-app interaction or chat options between candidates and hiring managers are not considered in the current scope, though these features may be considered in the future.
 * The Admin can set any profile to active or Inactive, but this feature is outside the current scope and can be considered for the future.   
-* ClearView AI Engine will not match job postings with any inactive profile. 
+* The current scope does not consider matching any inactive candidate profile with job postings. 
 
 ## Future Vision
 * Candidates can upload and manage multiple versions of their resumes under a single profile.
