@@ -1,5 +1,4 @@
-# Title
-Modular Monolith Architecture for ClearView Platform
+# Modular Monolith Architecture for ClearView Platform
 
 ## Status
 Proposed

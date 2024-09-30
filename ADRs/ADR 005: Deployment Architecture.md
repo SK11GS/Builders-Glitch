@@ -1,5 +1,4 @@
-# Title
-Deployment Style for ClearView Solution
+# Deployment Style for ClearView Solution
 
 ## Status
 Proposed

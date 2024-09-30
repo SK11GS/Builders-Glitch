@@ -1,5 +1,4 @@
-# Title 
-Event-Driven Architecture for ClearView AI Engine
+# Event-Driven Architecture for ClearView AI Engine
 
 ## Status
 Proposed

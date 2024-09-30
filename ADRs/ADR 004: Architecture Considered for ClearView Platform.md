@@ -1,5 +1,4 @@
-# Title
-Service Based Architecture for ClearView AI Engine
+# Service Based Architecture for ClearView AI Engine
 
 ## Status
 Superseded by [ADR #001](ADR%20001%3A%20Architecture%20Decision%20for%20ClearView%20Platform.md)

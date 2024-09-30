@@ -1,5 +1,4 @@
-# Title
-Microservices Architecture for ClearView AI Engine
+# Microservices Architecture for ClearView AI Engine
 
 ## Status
 Superseded by [ADR #002](ADR%20002%3A%20Architecture%20Decision%20for%20ClearView%20AI%20Engine.md)
