@@ -25,14 +25,14 @@ This emphasizes the need to ensure high availability for these components and an
    * As the services directly impact the trust of both candidates and hiring companies, any downtime would be detrimental.
    * Techniques such as load balancing, failover strategies, and cloud-based infrastructure should be considered to ensure this availability.
 
-> **Functional Correctness**:
+> **Functional Correctness**
   * The correctness of the AI engine and its components is crucial, particularly in matching candidates effectively.
   * Testing strategies, including unit testing and AI model validation, must be prioritized.
 
 #### Feature 2 
 Components like Resume Enhancer and Company Profile Finder must perform efficiently in real-time, as users interact with them directly. Any delay in response times can impact user experience.
 
-> **Performance**:
+> **Performance**
    * The system should be optimized for speed and responsiveness, ensuring efficient processing and quick response time
 
 #### Feature 3
@@ -44,17 +44,17 @@ The architecture must prioritize scalability to support high business volume, su
 > **Job Queue Processing**
    * To handle heavy loads efficiently, tasks such as resume matching should be processed asynchronously using a queuing mechanism. This ensures that tasks are distributed and processed independently without overwhelming the system.
     
-> **Load Balancing**:
+> **Load Balancing**
    * Load balancing should be implemented to distribute incoming requests evenly across multiple application instances, ensuring no single instance is overloaded during peak demand.
 
 #### Feature 4
 With the rapid advancements in the AI ecosystem, the ClearView engine must be designed to integrate new technologies and innovations seamlessly. The system must be flexible enough to evolve as AI models and algorithms continue to improve. Evolvability is prioritized as one of the key architectural characteristics to achieve this.
 
-> **Evolvability**:
-    * ClearView AI Engine should support continuous enhancements and the incorporation of new AI capabilities
+> **Evolvability**
+  * ClearView AI Engine should support continuous enhancements and the incorporation of new AI capabilities
      
-> **Security by Design**:
-    * Given the sensitivity of user data, security must be integrated at the design level. All components that handle PII should implement secure access controls, encryption, and auditing, ensuring data protection and compliance with regulations.
+> **Security by Design**
+  * Given the sensitivity of user data, security must be integrated at the design level. All components that handle PII should implement secure access controls, encryption, and auditing, ensuring data protection and compliance with regulations.
 
 ### Top 3 chosen
 * Availability
@@ -66,5 +66,5 @@ With the rapid advancements in the AI ecosystem, the ClearView engine must be de
 * Security
 
 ### ADR
-* [ADR #002](ADR%20002%3A%20Architecture%20Decision%20for%20ClearView%20AI%20Engine.md)
-* [ADR #003](ADR%20002%3A%20Architecture%20Considered%20for%20ClearView%20AI%20Engine.md)
+* [ADR #002](ADRs/ADR%20002%3A%20Architecture%20Decision%20for%20ClearView%20AI%20Engine.md)
+* [ADR #003](ADRs/ADR%20003%3A%20Architecture%20Considered%20for%20ClearView%20AI%20Engine.md)
