@@ -10,7 +10,7 @@ Builder's Glitch! We're a passionate team of IT professionals who thrive on solv
 
 
 # Introduction:  
-Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI)**
+Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
  
 
 ## Company Overview
@@ -26,10 +26,9 @@ Diversity Cyber Council aims to enhance inclusion and representation in the tech
 [Original Requirement for ClearView System](original%20requirements.md)
 
 ## Mapping Business Requirements to System Interactions
-
+[Refined Requirement for ClearView System](RefinedRequirements.md)
 
 # Architecture
-
 As a non-profit organization, the Diversity Cyber Council (DCC) will face budgetary constraints until the ClearView project begins generating revenue. Therefore, the initial solution must be cost-effective and straightforward, with the flexibility to scale as demand grows or when DCC secures additional funding through profits or external investments.
 
 Critical system components, particularly those supporting DCC's core operations, must maintain high availability—ideally around the clock but at least during peak business hours. The availability of business-critical components is crucial since DCC's revenue is directly tied to delivering value to partners, candidates, and hiring managers. Any downtime or inefficiency could negatively impact these relationships and revenue.
@@ -61,8 +60,7 @@ While these functions are standard across many software solutions and with AI En
 Adopting a domain-driven design ensures the platform efficiently meets current needs while maintaining flexibility for future growth. As the platform expands and new requirements emerge, individual components can be scaled and deployed independently, providing the necessary adaptability.
 
 ### Architecture Characteristic Mapping
-Cost-effective/Feasibility, Simplicity/Maintainable, Domain Driven according to the capabilities to suppor the extraction of these
-into its own services.
+Cost-effective/Feasibility, Simplicity/Maintainable, Domain-Driven according to the functional capabilities to support the extraction of these into its own services.
 
 ![Architecture Characteristic Mapping](architecture/images/ClearView%20Platform-Architectural-Characteristics.png "Architecture Characteristic Mapping")
 
@@ -71,23 +69,21 @@ Modular Monolith
 ![Architecture](architecture/images/ClearView%20Platform-Achitecture-Styles.png "Architecture")
 
 ## Designing the architecture
-
-The ClearView solution is a combination of AI-powered engine and a user-facing platform designed for both mobile and web.
+The ClearView solution combines an AI-powered engine and a user-facing platform optimized for both mobile and web.
 
 ![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
 
 The ClearView AI Engine leverages an **Event-Driven Architecture** to efficiently handle complex, asynchronous tasks like candidate matching, resume enhancement, and talent scoring, while maintaining scalability and flexibility as AI technologies evolve.
 * More on [**ClearView Engine**](aiengine.md)
 
-The ClearView Platform uses a **Modular Monolith Architecture** to manage user interactions, focusing on cost-effectiveness, quick time-to-market, and future scalability. Together, these components form a cohesive solution that empowers companies to participate in diversity hiring initiatives, offering a scalable, adaptable, and user-friendly system for both candidates and employers.
+The ClearView Platform uses a **Modular Monolith Architecture** to manage user interactions, focusing on cost-effectiveness, quick time-to-market, and future scalability. Together, these components form a cohesive solution that empowers companies to participate in diversity hiring initiatives, offering a scalable, adaptable, and user-friendly system for candidates and hiring managers.
 * More on [**ClearView Platform**](platform.md)
 
 **Queuing system**
-
 The proposed solution for both the **ClearView AI Engine** and the **ClearView Platform** will utilize a queueing system to manage asynchronous communication between the two components. The ClearView AI Engine processes tasks such as candidate matching, resume enhancement, and talent scoring asynchronously, placing the results onto the queue once the jobs are completed. The ClearView Platform then pulls the processed data from the queue to display updated information to users in real time, such as job matches or enhanced resumes. Implementors have the flexibility to choose a cost-effective queueing solution, such as **RabbitMQ**, **Amazon SQS**, or **Kafka**, depending on their operational needs.
 
 ## Deployment
-The final deployment view is shown below. For more details please check the [Deployment section](deployment/Deployment.md)
+The final deployment view is shown below. For more details, please check the [Deployment section](deployment/Deployment.md)
 ![Deployment view](deployment/images/deployment.jpg "Deployment of ClearView Solution")
 
 ## Summary
