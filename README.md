@@ -121,6 +121,10 @@ into its own services.
 Modular Monolith
 ![Architecture](architecture/images/ClearView%20Platform-Achitecture-Styles.png "Architecture")
 
+## Deployment
+The final deployment diagram looks like belo. For more details please check the [Deployment section](deployment/Deployment.md)
+
+
 # Solution
 ![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
 
