@@ -128,6 +128,8 @@ The final deployment diagram looks like belo. For more details please check the 
 # Solution
 ![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
 
-[ClearView Engine](aiengine.md)
+There are 2 main components in the ClearView System
 
-[ClearView Platform](platform.md)
+* [ClearView Engine](aiengine.md) 
+* [ClearView Platform](platform.md)
+
