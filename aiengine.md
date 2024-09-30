@@ -12,7 +12,7 @@ The components below constitute the ClearView AI Engine, which handles core busi
 * **Company Profile Finder**: Assists the company’s onboarding process by suggesting publicly available company data.
 
 ### Component View
-* Diagram will be inserted here
+![ClearView AI Engine](architecture/images/ClearView%20AI%20Engine-C3_Diagram.png "ClearView AI Engine C3 components view")
 
 ### Architectural Characteristic Mapping
 
