@@ -1,5 +1,8 @@
 # Mapping Business Requirements to System Interactions
 
+## [Glossary of Terms](Glossary.md)
+A brief description of the standardized terms, component names, and actors described in the solution.
+
 ## Candidate \- System Interaction
 * Candidates can register on the ClearView platform and create a profile by providing basic demographic and contact information.   
 * The ClearView platform sends a confirmation email, and candidates must verify their account.  
