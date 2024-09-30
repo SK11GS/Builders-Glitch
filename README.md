@@ -7,11 +7,11 @@ TABLE OF CONTENTS <!-- omit from toc -->
     <td>
 
 - [1. Builder's Glitch](#1-Builder's-Glitch)
-- [2. Welcome to ClearView](#1-Welcome-to-ClearView)
-- [3. Company Overview](#2-Company-Overview)
-- [4. Original Business Requirements for ClearView System](#3-Original-Business-Requirements-for-ClearView-System)
+- [2. Welcome to ClearView](#2-Welcome-to-ClearView)
+- [3. Company Overview](#3-Company-Overview)
+- [4. Original Business Requirements for ClearView System](#4-Original-Business-Requirements-for-ClearView-System)
   - [Mapping Business Requirements to System Interactions](#Mapping-Business-Requirements-to-System-Interactions)
-- [5. Architecture](#4-Architecture)
+- [5. Architecture](#5-Architecture)
   - [ClearView AI Engine](#ClearView-AI-Engine)
     - [Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping)
     - [Chosen Architecture](#Chosen-Architecture)
@@ -19,8 +19,9 @@ TABLE OF CONTENTS <!-- omit from toc -->
       - [Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping-1)
       - [Chosen Architecture](#Chosen-Architecture-1)
   - [Designing the architecture](#Designing-the-architecture)
-- [6. Deployment](#5-Deployment)
-- [7. Summary](#6-summary)
+- [6. Deployment](#6-Deployment)
+- [7. ADR](#7-adr)
+- [8. References](#8-references)
       </td>
  </tr>
 </table>
@@ -124,5 +125,18 @@ The final deployment view is shown below. For more details, please check the [De
 
 ![Deployment view](deployment/images/deployment.jpg "Deployment of ClearView Solution")
 
-# 7. Summary
-Placeholder for summary
+# 7. ADR
+* [ADR #001 Modular Monolith](ADRs/ADR%20001%3A%20Architecture%20Decision%20for%20ClearView%20Platform.md)
+* [ADR #002 Event Driven](ADRs/ADR%20002%3A%20Architecture%20Decision%20for%20ClearView%20AI%20Engine.md)
+* [ADR #003 Considered Microservice](ADRs/ADR%20003%3A%20Architecture%20Considered%20for%20ClearView%20AI%20Engine.md)
+* [ADR #004 Considered Service Based](ADRs/ADR%20004%3A%20Architecture%20Considered%20for%20ClearView%20Platform.md)
+* [ADR #005 Deployment Strategy](ADRs/ADR%20005%3A%20Deployment%20Architecture.md)
+
+# 8. References
+* https://www.developertoarchitect.com/resources.html
+* https://c4model.com/
+* https://github.com/thekataLog
+* https://github.com/TheKataLog/Jedis/tree/main?tab=readme-ov-file
+* https://github.com/TheKataLog/BluzBrothers
+* https://github.com/miyagis-forests/farmacy-food-kata
+* https://alperenbayramoglu2.medium.com/architectural-characteristics-4ee3eab8ea6e

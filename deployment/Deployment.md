@@ -9,3 +9,6 @@ To ensure optimal system scalability and evolvability, we have chosen to deploy 
 ### Notes
 
 The Messaging namespace and ClearView AI engine are currently illustrated as part of the Kubernetes deployment; however, this configuration can be adjusted in future phases to exclude them and integrate external services if required.
+
+### ADR
+* [ADR #005](../ADRs/ADR%20005%3A%20Deployment%20Architecture.md)
