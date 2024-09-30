@@ -9,6 +9,35 @@ Builder's Glitch! We're a passionate team of IT professionals who thrive on solv
 | Vijji | Vijaya lakshmi, Guruswamy | [LinkedIn](https://www.linkedin.com/in/vijji-guruswamy-a2020714/)  |
 
 
+TABLE OF CONTENTS <!-- omit from toc --> 
+=================
+<center>
+
+<table border="0">
+ <tr style="vertical-align:top">
+    <td>
+
+- [1. Welcome to ClearView](#1-Welcome-to-ClearView)
+- [2. Company Overview](#2-Company-Overview)
+- [3. Original Business Requirements for ClearView System](#3-Original-Business-Requirements-for-ClearView-System)
+  - [Mapping Business Requirements to System Interactions](#Mapping-Business-Requirements-to-System-Interactions)
+- [4. Architecture](#4-Architecture)
+  - [ClearView AI Engine](#ClearView-AI-Engine)
+    -[Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping)
+    -[Chosen Architecture](#Chosen-Architecture)
+  - [ClearView Platforms](#ClearView-Platform)
+      -[Architecture Characteristic Mapping(Platform)](#Architecture-Characteristic-Mapping)
+      -[Chosen Architecture](#Chosen-Architecture)
+  - [Designing the architecture](#Designing-the-architecture)
+- [5. Deployment](#5-Deployment)
+- [6. Summary](#6-summary)
+      </td>
+ </tr>
+</table>
+
+</center>
+
+
 # 1. Welcome to ClearView:  
 Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
  
