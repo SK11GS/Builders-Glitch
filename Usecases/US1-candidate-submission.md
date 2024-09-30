@@ -6,9 +6,9 @@ This use case is about allowing candidates to submit a resume, refine the resume
 <Container image goes here>
 
 Involved containers:
-- Job / Resume Manager
-- Resume AI
-- Anonymize AI
+- Resume Manager
+- Resume / Job Enhancer
+- Anonymizer
 
 ## Sequence diagram
 ![candidate-submission.jpg](images%2Fcandidate-submission.jpg)
@@ -21,6 +21,6 @@ The uploaded resume is then sent to the Resume AI module, which analyzes the con
 
 The candidate can choose to either accept the suggestions or make their own edits before resubmitting the resume. This process can be repeated until the candidate is satisfied with the final version.
 
-The candidate can submit their resume to the Summary AI once they are satisfied with the final version.
+The candidate can submit their resume to the Anonymizer once they are satisfied with the final version.
 
-The Summary AI will generate an anonymized resume for the resume and send it back to the Resume manager.
+The Anonymizer will generate an anonymized resume for the resume and send it back to the Resume manager.

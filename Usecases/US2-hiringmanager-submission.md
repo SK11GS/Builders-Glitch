@@ -6,10 +6,9 @@ This use case is about allowing hiring managers to submit and refine a job requi
 <Container image goes here>
 
 Involved containers:
-- Job / Resume Manager
-- Job AI
-- Match AI
-
+- Job Manager
+- Resume / Job Enhancer
+- Talent Bridge
 
 ## Sequence diagram
 ![hiringmanager-submission.jpg](images%2Fhiringmanager-submission.jpg)
@@ -18,7 +17,7 @@ Involved containers:
 
 A hiring manager submits their job request through the Job Manager module. 
 
-The uploaded job request is then sent to the Job AI module, which analyzes the content and offers helpful suggestions for improvement.
+The uploaded job request is then sent to the Resume / Job Enhancer module, which analyzes the content and offers helpful suggestions for improvement.
 
 The hiring manager can choose to either accept the suggestions or make their own edits before resubmitting the job request. This process can be repeated until the hiring manager is satisfied with the final version.
 
