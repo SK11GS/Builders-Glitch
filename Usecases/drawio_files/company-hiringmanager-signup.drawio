@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1062" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Company Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Company Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="30" y="120" width="100" height="280" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
@@ -39,46 +39,46 @@
         <mxCell id="esuSEMGTplwkqz9OYXq6-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="esuSEMGTplwkqz9OYXq6-40" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-5">
+        <mxCell id="QA5981kljynSRhdAZAZ4-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="249.5" as="sourcePoint" />
             <mxPoint x="190" y="249.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-2" value="Create hiring manager profiles" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="QA5981kljynSRhdAZAZ4-1">
+        <mxCell id="QA5981kljynSRhdAZAZ4-2" value="Create hiring manager profiles" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="QA5981kljynSRhdAZAZ4-1" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="QA5981kljynSRhdAZAZ4-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="270" as="sourcePoint" />
             <mxPoint x="500" y="270.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-4" value="Invitations" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="QA5981kljynSRhdAZAZ4-3">
+        <mxCell id="QA5981kljynSRhdAZAZ4-4" value="Invitations" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="QA5981kljynSRhdAZAZ4-3" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="QA5981kljynSRhdAZAZ4-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="290" as="sourcePoint" />
             <mxPoint x="710" y="290.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-7" value="Invitations" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="QA5981kljynSRhdAZAZ4-6">
+        <mxCell id="QA5981kljynSRhdAZAZ4-7" value="Invitations" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="QA5981kljynSRhdAZAZ4-6" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="QA5981kljynSRhdAZAZ4-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="715" y="340" as="sourcePoint" />
             <mxPoint x="285" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QA5981kljynSRhdAZAZ4-9" value="Complete Signup" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="QA5981kljynSRhdAZAZ4-8">
+        <mxCell id="QA5981kljynSRhdAZAZ4-9" value="Complete Signup" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="QA5981kljynSRhdAZAZ4-8" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
