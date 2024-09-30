@@ -1,4 +1,33 @@
-## Builder's Glitch:   
+TABLE OF CONTENTS <!-- omit from toc --> 
+=================
+<center>
+
+<table border="0">
+ <tr style="vertical-align:top">
+    <td>
+
+- [1. Builder's Glitch](#1-Builder's-Glitch)
+- [2. Welcome to ClearView](#1-Welcome-to-ClearView)
+- [3. Company Overview](#2-Company-Overview)
+- [4. Original Business Requirements for ClearView System](#3-Original-Business-Requirements-for-ClearView-System)
+  - [Mapping Business Requirements to System Interactions](#Mapping-Business-Requirements-to-System-Interactions)
+- [5. Architecture](#4-Architecture)
+  - [ClearView AI Engine](#ClearView-AI-Engine)
+    - [Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping)
+    - [Chosen Architecture](#Chosen-Architecture)
+  - [ClearView Platforms](#ClearView-Platform)
+      - [Architecture Characteristic Mapping(Platform)](#Architecture-Characteristic-Mapping)
+      - [Chosen Architecture](#Chosen-Architecture)
+  - [Designing the architecture](#Designing-the-architecture)
+- [6. Deployment](#5-Deployment)
+- [7. Summary](#6-summary)
+      </td>
+ </tr>
+</table>
+
+</center>
+
+# 1. Builder's Glitch:   
 Builder's Glitch! We're a passionate team of IT professionals who thrive on solving complex challenges. 
 
 | Name | Full Name | LinkedIn Profile |
@@ -9,39 +38,11 @@ Builder's Glitch! We're a passionate team of IT professionals who thrive on solv
 | Vijji | Vijaya lakshmi, Guruswamy | [LinkedIn](https://www.linkedin.com/in/vijji-guruswamy-a2020714/)  |
 
 
-TABLE OF CONTENTS <!-- omit from toc --> 
-=================
-<center>
 
-<table border="0">
- <tr style="vertical-align:top">
-    <td>
-
-- [1. Welcome to ClearView](#1-Welcome-to-ClearView)
-- [2. Company Overview](#2-Company-Overview)
-- [3. Original Business Requirements for ClearView System](#3-Original-Business-Requirements-for-ClearView-System)
-  - [Mapping Business Requirements to System Interactions](#Mapping-Business-Requirements-to-System-Interactions)
-- [4. Architecture](#4-Architecture)
-  - [ClearView AI Engine](#ClearView-AI-Engine)
-    - [Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping)
-    - [Chosen Architecture](#Chosen-Architecture)
-  - [ClearView Platforms](#ClearView-Platform)
-      - [Architecture Characteristic Mapping(Platform)](#Architecture-Characteristic-Mapping)
-      - [Chosen Architecture](#Chosen-Architecture)
-  - [Designing the architecture](#Designing-the-architecture)
-- [5. Deployment](#5-Deployment)
-- [6. Summary](#6-summary)
-      </td>
- </tr>
-</table>
-
-</center>
-
-
-# 1. Welcome to ClearView:  
+# 2. Welcome to ClearView:  
 Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
  
-# 2. Company Overview
+# 3. Company Overview
 ![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
 
 [Diversity Cyber Council](https://www.diversitycybercouncil.com/) is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce.
@@ -50,7 +51,7 @@ Diversity Cyber Council’s goal is to establish a sustainable and diverse talen
 
 Diversity Cyber Council aims to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
-# 3. Original Business Requirements for ClearView System
+# 4. Original Business Requirements for ClearView System
 [Original Requirement for ClearView System](original%20requirements.md)
 
 ### Mapping Business Requirements to System Interactions
@@ -64,7 +65,7 @@ By honing in on these priorities and considering the financial implications of d
 
 [Glossary of Terms](Glossary.md)<sup>*</sup>
 
-# 4. Architecture
+# 5. Architecture
 As a non-profit organization, the Diversity Cyber Council (DCC) will face budgetary constraints until the ClearView project begins generating revenue. Therefore, the initial solution must be cost-effective and straightforward, with the flexibility to scale as demand grows or when DCC secures additional funding through profits or external investments.
 
 Critical system components, particularly those supporting DCC's core operations, must maintain high availability—ideally around the clock but at least during peak business hours. The availability of business-critical components is crucial since DCC's revenue is directly tied to delivering value to partners, candidates, and hiring managers. Any downtime or inefficiency could negatively impact these relationships and revenue.
@@ -118,10 +119,10 @@ The ClearView Platform uses a **Modular Monolith Architecture** to manage user i
 **Queuing system**
 The proposed solution for both the **ClearView AI Engine** and the **ClearView Platform** will utilize a queueing system to manage asynchronous communication between the two components. The ClearView AI Engine processes tasks such as candidate matching, resume enhancement, and talent scoring asynchronously, placing the results onto the queue once the jobs are completed. The ClearView Platform then pulls the processed data from the queue to display updated information to users in real time, such as job matches or enhanced resumes. Implementors have the flexibility to choose a cost-effective queueing solution, such as **RabbitMQ**, **Amazon SQS**, or **Kafka**, depending on their operational needs.
 
-# 5. Deployment
+# 6. Deployment
 The final deployment view is shown below. For more details, please check the [Deployment section](deployment/Deployment.md)
 
 ![Deployment view](deployment/images/deployment.jpg "Deployment of ClearView Solution")
 
-# 6. Summary
+# 7. Summary
 Placeholder for summary
