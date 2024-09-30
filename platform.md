@@ -49,7 +49,7 @@ Captures and reports key metrics related to system performance, user behavior, a
 Handles billing, invoicing, and payment processing for companies using the platform's premium services.
 
 ### Component View
-![ClearView Platform](architecture/images/ClearView%20AI%20Platform-C3_Diagram.png "ClearView Platform C3 components view")
+![ClearView Platform](architecture/images/ClearViewPlatform-C3_Diagram.png "ClearView Platform C3 components view")
 
 ### Architectural Characteristic Mapping
 
