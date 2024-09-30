@@ -91,7 +91,7 @@ Given these considerations, we propose a solution that consists of two core serv
 * **ClearView Platform** – to handle other essential business functionalities.
 
 ## ClearView AI Engine:
-The ClearView AI Engine must be designed for scalability. As the volume of candidate profiles and job postings increases, the system must seamlessly expand to accommodate the growing demand. Since AI model integration is resource-intensive, the infrastructure should efficiently support the increasing demand.
+The ClearView AI Engine must be designed for availability and scalability to support core business operations. As the volume of candidate profiles and job postings increases, the system must seamlessly expand to accommodate the growing demand. Since AI model integration is resource-intensive, the infrastructure should efficiently support the increasing demand.
 
 The AI landscape is evolving rapidly with frequent updates and advancements. To maintain a competitive edge and deliver an optimal user experience, the AI Engine should be adaptable, allowing DCC to integrate new AI technologies and improvements as they emerge. This focus is on evolvability, where the system evolves along with the advancements in the AI industry while maintaining its relevance and effectiveness in managing user needs.
 
@@ -121,17 +121,25 @@ into its own services.
 Modular Monolith
 ![Architecture](architecture/images/ClearView%20Platform-Achitecture-Styles.png "Architecture")
 
-## Deployment
-The final deployment diagram looks like below. For more details please check the [Deployment section](deployment/Deployment.md)
-
-![Deployment Diagram](deployment/images/deployment.jpg "Deployment Diagram")
-
 ## Designing the architecture
+
+The ClearView solution is a combination of AI-powered engine and a user-facing platform designed for both mobile and web.
 
 ![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
 
-There are 2 main components in the ClearView System
+The ClearView AI Engine leverages an **Event-Driven Architecture** to efficiently handle complex, asynchronous tasks like candidate matching, resume enhancement, and talent scoring, while maintaining scalability and flexibility as AI technologies evolve.
+* More on [**ClearView Engine**](aiengine.md)
 
-* [ClearView Engine](aiengine.md) 
-* [ClearView Platform](platform.md)
+The ClearView Platform uses a **Modular Monolith Architecture** to manage user interactions, focusing on cost-effectiveness, quick time-to-market, and future scalability. Together, these components form a cohesive solution that empowers companies to participate in diversity hiring initiatives, offering a scalable, adaptable, and user-friendly system for both candidates and employers.
+* More on [**ClearView Platform**](platform.md)
 
+**Queuing system**
+
+The proposed solution for both the **ClearView AI Engine** and the **ClearView Platform** will utilize a queueing system to manage asynchronous communication between the two components. The ClearView AI Engine processes tasks such as candidate matching, resume enhancement, and talent scoring asynchronously, placing the results onto the queue once the jobs are completed. The ClearView Platform then pulls the processed data from the queue to display updated information to users in real time, such as job matches or enhanced resumes. Implementors have the flexibility to choose a cost-effective queueing solution, such as **RabbitMQ**, **Amazon SQS**, or **Kafka**, depending on their operational needs.
+
+## Deployment
+The final deployment view is shown below. For more details please check the [Deployment section](deployment/Deployment.md)
+![Deployment view](deployment/images/deployment.jpg "Deployment of ClearView Solution")
+
+## Summary
+Placeholder for summary
