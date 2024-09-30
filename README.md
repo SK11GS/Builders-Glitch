@@ -17,7 +17,7 @@ TABLE OF CONTENTS <!-- omit from toc -->
     - [Chosen Architecture](#Chosen-Architecture)
   - [ClearView Platforms](#ClearView-Platform)
       - [Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping-1)
-      - [Chosen Architecture](#Chosen-Architecture-2)
+      - [Chosen Architecture](#Chosen-Architecture-1)
   - [Designing the architecture](#Designing-the-architecture)
 - [6. Deployment](#5-Deployment)
 - [7. Summary](#6-summary)
