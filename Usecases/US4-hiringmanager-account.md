@@ -1,4 +1,4 @@
-# Use case - Hiring manager account setup
+# Use case - Hiring manager account signup
 
 This use case is about company signup and adding hiring managers to a company profile.
 

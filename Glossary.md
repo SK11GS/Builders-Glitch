@@ -24,7 +24,6 @@
 |  | Survey & Feedback Management | Responsible for initiating and collecting survey from candidates and hiring managers |
 |  | Notifications | Responsible for sending notifications to hiring managers, candidates |
 |  | External Integration | Responsible for allowing hiring managers to export the candidate's profile to their existing HR system |
-|  | ClearView Administrator Management |  |
 |  | Data & Analytics | Handles all reporting and analytics for different data points within the ClearView system |
 |  | Billing & Payment Module | Responsible for all billing and payment functionality within the ClearView platform |
 | **Custom LLM for ClearView** | LLM Engine | A service that runs custom LLM.  |

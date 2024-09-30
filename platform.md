@@ -69,8 +69,10 @@ Handles billing, invoicing, and payment processing for companies using the platf
 
 ## Use cases
 
-* Dinesh use cases will be linked here 
-
+* [Candidate resume submission](Usecases%2FUS1-candidate-submission.md)
+* [Hiring manager job requisition submission](Usecases%2FUS2-hiringmanager-submission.md)
+* [Hiring manager job match](Usecases%2FUS3-hiringmanager-match.md)
+* [Hiring manager account signup](Usecases%2FUS4-hiringmanager-account.md)
 
 ### Top 3 chosen
 * Simplicity
