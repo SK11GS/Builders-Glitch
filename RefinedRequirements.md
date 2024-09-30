@@ -1,7 +1,6 @@
 # Mapping Business Requirements to System Interactions
 
-## [Glossary of Terms](Glossary.md)
-A brief description of the standardized terms, component names, and actors described in the solution.
+Description of the standardized terms, component names, and actors are defined in the solution is documented in [Glossary of Terms](Glossary.md)
 
 ## Candidate \- System Interaction
 * Candidates can register on the ClearView platform and create a profile by providing basic demographic and contact information.   
