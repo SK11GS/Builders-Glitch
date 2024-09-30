@@ -122,8 +122,8 @@ Modular Monolith
 ![Architecture](architecture/images/ClearView%20Platform-Achitecture-Styles.png "Architecture")
 
 ## Deployment
-The final deployment diagram looks like belo. For more details please check the [Deployment section](deployment/Deployment.md)
-
+The final deployment diagram looks like below. For more details please check the [Deployment section](deployment/Deployment.md)
+[Deployment Diagram](deployment/images/deployment.jpg "Deployment Diagram")
 
 ## Designing the architecture
 
