@@ -91,6 +91,7 @@ The proposed solution for both the **ClearView AI Engine** and the **ClearView P
 
 ## Deployment
 The final deployment view is shown below. For more details, please check the [Deployment section](deployment/Deployment.md)
+
 ![Deployment view](deployment/images/deployment.jpg "Deployment of ClearView Solution")
 
 ## Summary
