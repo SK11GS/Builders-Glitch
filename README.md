@@ -25,7 +25,7 @@ Diversity Cyber Council aims to enhance inclusion and representation in the tech
 [Original Requirement for ClearView System](original%20requirements.md)
 
 # Mapping Business Requirements to System Interactions
-To refine the original requirements, we developed an actor-system interaction mapping model to streamline the user journeys to improve clarity and usability. We organized them around core system functionalities for candidates, hiring managers, and ClearView administrators. 
+To refine the original requirements, we developed an actor-system interaction mapping model to streamline the user journeys to improve clarity and usability. We organized them around core system functionalities for **_Candidates, Hiring Managers, and ClearView Administrators_<sup>*</sup>**. 
 
 We focused on thorough analysis to identify the core objectives and critical problems, such as reducing hiring bias and improving candidate-job matching and essential features like AI-driven resume analysis, anonymization, and data aggregation, ensuring that these functionalities are addressed. 
 
@@ -33,7 +33,7 @@ By honing in on these priorities and considering the financial implications of d
 
 [Refined Requirement for ClearView System](RefinedRequirements.md)
 
-[Glossary of Terms](Glossary.md)
+[Glossary of Terms](Glossary.md)<sup>*</sup>
 
 # Architecture
 As a non-profit organization, the Diversity Cyber Council (DCC) will face budgetary constraints until the ClearView project begins generating revenue. Therefore, the initial solution must be cost-effective and straightforward, with the flexibility to scale as demand grows or when DCC secures additional funding through profits or external investments.
