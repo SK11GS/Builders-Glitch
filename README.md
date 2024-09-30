@@ -125,7 +125,8 @@ Modular Monolith
 The final deployment diagram looks like belo. For more details please check the [Deployment section](deployment/Deployment.md)
 
 
-# Solution
+## Designing the architecture
+
 ![ClearView Solution](architecture/images/ClearViewSolution_C1_Diagram.png "Context Diagram for the two proposed applications")
 
 There are 2 main components in the ClearView System
