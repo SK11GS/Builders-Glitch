@@ -6,12 +6,12 @@ This use case enables hiring managers to view an anonymized resume summary, purc
 <Container image goes here>
 
 Involved containers:
-- Match AI
+- Talent Bridge	
 - Notification Queue
-- Job / Resume Manager
-- Invoice
+- Job Manager
+- Billing & Payment
 - External Integration
-- Survey Manager
+- Survey & Feedback
 
 ## Sequence diagram
 ![job-match.jpg](images%2Fjob-match.jpg)
