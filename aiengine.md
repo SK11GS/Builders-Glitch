@@ -1,16 +1,15 @@
-### Overview of ClearView Engine
+### Overview of ClearView AI Engine
+ClearView's solution heavily relies on AI to drive its core business function, particularly in generating revenue, fostering trust between candidates and hiring companies, and ensuring effective candidate matching. 
 
-ClearView's system relies heavily on AI to drive its core business operations, particularly in generating revenue, fostering trust between candidates and hiring companies, and ensuring effective candidate matching. The goal is to overcome the limitations of existing Applicant Tracking Systems (ATS).
+### System Components
+The components below constitute the ClearView AI Engine, which handles core business functionalities.
 
-### Driving Factors
-To meet these goals, the AI-driven components have been grouped into the core AI engine, which includes the following modules:
-
-* **Resume Enhancer**: Enhances candidate resumes for better matching.
-* **Anonymizer**: Ensures anonymization of sensitive information.
-* **Talent Match Score**: Provides scoring for matching candidates to job opportunities.
-* **S.M.A.R.T Profile**: Provides a structured, detailed profile of candidates for more accurate matching.
-* **TalentBridge**: Facilitates communication and interaction between candidates and employers.
-* **Company Profile Finder**: Finds and curates profiles for hiring companies.
+* **Resume Enhancer** component provides resume improvement and refinement tips,   
+* **Anonymizer** eliminates all sensitive information from the resume to prevent any hiring bias.   
+* **S.M.A.R.T Profile** provides a structured, detailed profile of the candidate using SMART methodology for more accurate matching.  
+* **Talent Match Score** provides a match score that determines a candidate for the job opportunity fit.   
+* **Talent Bridge**: Matches the candidates to job postings.  
+* **Company Profile Finder**: Assists the company’s onboarding process by suggesting publicly available company data.
 
 ### Component View
 * Diagram will be inserted here
