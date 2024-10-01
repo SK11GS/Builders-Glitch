@@ -9,7 +9,7 @@ TABLE OF CONTENTS <!-- omit from toc -->
 - [1. Builder's Glitch](#1-builders-glitch)
 - [2. Welcome to ClearView](#2-Welcome-to-ClearView)
 - [3. Company Overview](#3-Company-Overview)
-- [4. Original Business Requirements for ClearView System](#4-Original-Business-Requirements-for-ClearView-System)
+- [4. Refining Business Requirements](#4-refining-business-requirements)
   - [Mapping Business Requirements to System Interactions](#Mapping-Business-Requirements-to-System-Interactions)
 - [5. Architecture](#5-Architecture)
   - [ClearView AI Engine](#ClearView-AI-Engine)
@@ -52,7 +52,7 @@ Diversity Cyber Council’s goal is to establish a sustainable and diverse talen
 
 Diversity Cyber Council aims to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
-# 4. Original Business Requirements for ClearView System
+# 4. Refining Business Requirements
 [Original Requirement for ClearView System](original%20requirements.md)
 
 ### Mapping Business Requirements to System Interactions
