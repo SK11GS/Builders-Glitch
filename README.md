@@ -41,7 +41,9 @@ Builder's Glitch! We're a passionate team of IT professionals who thrive on solv
 
 
 # 2. Welcome to ClearView 
-Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architecture for the **ClearView Solution**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
+
+![Clear view solution](architecture/images/ClearviewSolution.png "Clear view solution")
+Welcome to the **O'Reilly Architectural Kata: Fall 2024**, where we will be assessing the architecture for the **ClearView Solution**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
  
 # 3. Company Overview
 ![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
