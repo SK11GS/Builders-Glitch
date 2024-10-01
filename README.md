@@ -7,12 +7,12 @@ TABLE OF CONTENTS <!-- omit from toc -->
     <td>
 
 - [1. Builder's Glitch](#1-builders-glitch)
-- [2. Welcome to ClearView](#2-Welcome-to-ClearView)
+- [2. Welcome to ClearView](#2-welcome-to-clearview)
 - [3. Company Overview](#3-Company-Overview)
 - [4. Refining Business Requirements](#4-refining-business-requirements)
   - [Mapping Business Requirements to System Interactions](#Mapping-Business-Requirements-to-System-Interactions)
 - [5. Architecture](#5-Architecture)
-  - [ClearView AI Engine](#ClearView-AI-Engine)
+  - [ClearView AI Engine](#clearview-ai-engine)
     - [Architecture Characteristic Mapping](#Architecture-Characteristic-Mapping)
     - [Chosen Architecture](#Chosen-Architecture)
   - [ClearView Platforms](#ClearView-Platform)
@@ -28,7 +28,7 @@ TABLE OF CONTENTS <!-- omit from toc -->
 
 </center>
 
-# 1. Builder's Glitch:   
+# 1. Builder's Glitch 
 Builder's Glitch! We're a passionate team of IT professionals who thrive on solving complex challenges. 
 
 | Name | Full Name | LinkedIn Profile |
@@ -40,8 +40,8 @@ Builder's Glitch! We're a passionate team of IT professionals who thrive on solv
 
 
 
-# 2. Welcome to ClearView:  
-Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architectural solution for the **ClearView Platform**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
+# 2. Welcome to ClearView 
+Welcome to the **2024 Autumn O'Reilly Architectural Kata**, where we will be assessing the architecture for the **ClearView Solution**—an anonymized hiring platform designed to promote **Diversity, Equity, and Inclusion (DEI).**
  
 # 3. Company Overview
 ![DiversityCyberCouncilLogo](architecture/images/DiversityCyberCouncilLogo.png "DiversityCyberCouncilLogo")
@@ -76,7 +76,7 @@ Given these considerations, we propose a solution that consists of two core serv
 * **ClearView AI Engine** – to handle all automated tasks powered by AI models
 * **ClearView Platform** – to handle other essential business functionalities.
 
-## ClearView AI Engine:
+## ClearView AI Engine
 The ClearView AI Engine must be designed for availability and scalability to support core business operations. As the volume of candidate profiles and job postings increases, the system must seamlessly expand to accommodate the growing demand. Since AI model integration is resource-intensive, the infrastructure should efficiently support the increasing demand.
 
 The AI landscape is evolving rapidly with frequent updates and advancements. To maintain a competitive edge and deliver an optimal user experience, the AI Engine should be adaptable, allowing DCC to integrate new AI technologies and improvements as they emerge. This focus is on evolvability, where the system evolves along with the advancements in the AI industry while maintaining its relevance and effectiveness in managing user needs.
