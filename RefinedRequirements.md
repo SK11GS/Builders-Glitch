@@ -43,7 +43,8 @@ Description of the standardized terms, component names, and actors are defined i
 * ClearView Admin generates detailed reports for the company’s executive management, focusing on hiring trends and potential bias. These reports help leadership understand and mitigate bias in their hiring decisions.  
 * ClearView Admin compiles unconscious bias reports and other monthly reports with KPIs and metrics related to the interview process and shares them with the hiring company's executive management.   
   * The ClearView admin can facilitate actionable recommendations or bias-reduction strategies that executives can use to improve fairness in their hiring and interview processes.
-![ClearView Admin Flow](architecture/images/ClearViewAdminFlow.png "ClearView Admin Flow") 
+![ClearView Admin Flow](architecture/images/ClearViewAdminFlowNew.png "ClearView Admin Flow")
+
 
 ## DEI Consultant \- System Interaction
 * DEI Consultants shadow live interviews at the request of the hiring manager to monitor for potential unconscious bias.  
