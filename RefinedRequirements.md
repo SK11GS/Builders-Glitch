@@ -19,6 +19,9 @@ Description of the standardized terms, component names, and actors are defined i
 * Candidates can remove or update their resumes at any point.   
 * Candidates can mark their profiles as "inactive,"
 * After completing an interview, candidates receive a 5-question survey to rate the interviewer and provide feedback.
+
+  <img src="architecture/images/CandidateFlow.svg" alt="Candidate-System interaction" width="1200" height="800">
+  
     
 ## Hiring Manager \- System Interaction
 * Employers or hiring managers register on the ClearView platform, with public data auto-filled and non-public data to be manually added.  
@@ -32,7 +35,8 @@ Description of the standardized terms, component names, and actors are defined i
   * Including a DEI Consultant to shadow interviews is an additional service offered at a cost.  
 * Hiring managers are notified when a new match is made to any of their roles posted.   
   * The notifications can be consolidated into a single message across all job postings and redirect the hiring manager to the dashboard.  
-* **Highlighting Revenue Pattern of ClearView Platform:** The ClearView platform generates revenue when a company view a candidate’s complete profile or when the company chooses to involve a DEI consultant in the interview process. 
+* **Highlighting Revenue Pattern of ClearView Platform:** The ClearView platform generates revenue when a company view a candidate’s complete profile or when the company chooses to involve a DEI consultant in the interview process.
+  <img src="architecture/images/HiringManagerFlow.svg" alt="Candidate-System interaction" width="1200" height="800">
 
 ## ClearView Admin \- System Interaction
 * ClearView Admin ensures that any changes to a candidate's status, whether hired, rejected, accepted, or currently interviewing, are updated and reflected across the platform, promoting transparency in the hiring process.  
@@ -41,6 +45,7 @@ Description of the standardized terms, component names, and actors are defined i
 * ClearView Admin generates detailed reports for the company’s executive management, focusing on hiring trends and potential bias. These reports help leadership understand and mitigate bias in their hiring decisions.  
 * ClearView Admin compiles unconscious bias reports and other monthly reports with KPIs and metrics related to the interview process and shares them with the hiring company's executive management.   
   * The ClearView admin can facilitate actionable recommendations or bias-reduction strategies that executives can use to improve fairness in their hiring and interview processes.
+  <img src="architecture/images/ClearViewAdminFlow.svg" alt="Candidate-System interaction" width="1200" height="800">
 
 ## DEI Consultant \- System Interaction
 * DEI Consultants shadow live interviews at the request of the hiring manager to monitor for potential unconscious bias.  
